@@ -7,25 +7,28 @@
         <title>Services</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./public/css/style.css">
+        <link rel="stylesheet" href="./public/css/colourScheme.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     </head>
     <body>
 
-
+<!-- NAV BAR -->
+      <div class = "row">
+        <nav class = "dark-blue">
+          <div>
+            <ul>
+              <li><a href = "./index.html"><img src = './public/resources/home-icon.svg' id = "home-icon"></a></li>
+            </ul>
+           </div>
+          </nav>
+      </div>
       
-  <!-- <div class = "row"> -->
-    <div class = "row">
-      <nav class = "dark-blue">
-        <div>
-          <ul>
-            <li><a href = "./index.html"><img src = './public/resources/home-icon.svg' id = "home-icon"></a></li>
-          </ul>
-         </div>
-        </nav>
-    </div>
-
+<!-- MAIN CONTAINER -->
+      <div class = "container">
+       
+<!-- LINKEDIN, GITHUB, CV LOGOS -->
           <div class = "top-nav">
               <a  href = "https://www.linkedin.com/in/jordan-litsas-2760a81b8/?originalSubdomain=au">
                 <img src = "./public/resources/linkedin-icon.svg" class = "contact-img">
@@ -37,168 +40,251 @@
                 <img src = "./public/resources/cv-icon.svg" class = "contact-img">
               </a>      
           </div>
-
+    
+              
+                  
+<!-- ABOUT ME -->
           <div class = "row">
-            <div class = "col s2"></div>
-            <div class = "col s8">
-              <p id = "about-me">
-                Hi there, <br>
-                as a software engineer, I’m interested in turning ideas into a running program. I’m intrigued by the 
-                prospect of web development as an abundant platform that can support any simple or overly complex 
-                machination.  My website is a collection of the software I have developed, an area where I can showcase my 
-                technical abilities.  One of my greatest interests is how as developers we can develop software as an 
-                intermediary UI for non-coders to interact with complex technology. Whether it’s web or software and 
-                services development, I’m here to make your problems my challenge.
-              </p>
-            </div>
-            
-          </div>
-
-
-
-
-          
-          <div class = "container">
-              <div class="row"> 
-
-                  <!--Assigment 2 Card-->
-                  <div class="col s12 m6" >
-                      <div class="card small dark-blue darken-1">
-                          <div class="card-content white-text">
-                              <span class="card-title">Real Easy Rent</span>
-                            <p>
-                                This project is a full stack application which aims to streamline the communication between landlords and renters.
-                            </p>
-                              <div class = "row">
-                                  <div class = "col s6">
-                                    <ul>
-                                      <li>NodeJS | Express</li>
-                                      <li>MongoDB | Mongoose</li>
-                                      <li>Vanilla JS</li>
-                                      <li>Docker</li>
-                                    </ul>
-                                </div>
-                                <div class = "col s6">
-                                    <div class = "project-links">
-                                        <a href="./public/projects/mainProject" class = "waves-effect waves-light btn project-link-item btn-link">
-                                          <i class="material-icons right btn-link">cloud</i>
-                                          Try it out
-                                        </a>
-                                        <a href="https://github.com/jordanlitsas" class = "waves-effect waves-light btn project-link-item btn-link">
-                                          <i class="material-icons right btn-link">cloud</i>
-                                          GitHub
-                                        </a>
-                                      </div>
-                                  </div>             
-                            </div>
-                        </div>
-                      </div>
-                    </div> 
-
-                    <!--SQLite3 DBMS Card-->
-                      <div class="col s12 m6"> 
-                          <div class="card small dark-blue darken-1">
-                            <div class="card-content white-text">
-                              <span class="card-title">SQlite3 Database Generator</span>
-                              <p>
-                                This app allows users to design a relational database in table format, and convert that to executable Nodejs Sqlite3 script.
-                              </p>
-                              <br>
-
-                              <div class = "row">
-                                <div class = "col s6">
-                                  <ul>
-                                    <li>NodeJS | Express</li>
-                                    <li>MongoDB | Mongoose</li>
-                                    <li>Vanilla JS</li>
-                                    <li>Docker</li>
-                                  </ul>
-                                </div>
-                                <div class = "col s6">
-                                  <div class = "project-links">
-                                    <a href="./public/projects/sqlGenerator" class = "waves-effect waves-light btn project-link-item btn-link">
-                                      <i class="material-icons right btn-link">cloud</i>
-                                      Try it out
-                                    </a>
-                                    <a href="https://github.com/jordanlitsas" class = "waves-effect waves-light btn project-link-item btn-link">
-                                      <i class="material-icons right btn-link">cloud</i>
-                                      GitHub
-                                    </a>
-                                  </div>
-                                </div>             
-                              </div>
-                          </div>
-                        </div>
-          </div>
-
-
-                  <div class="row"> 
-                    
-                    <!--Chess Card-->
-                   <div class="col s12 m6">
-                      <div class="card small dark-blue darken-1 responsive-card">
-                        <div class="card-content white-text">
-                          <span class="card-title">Text-Based Chess</span>
-                          <p>
-                              This project is a text-based chess game. It was created with C# as the main project in an Objected Oriented Programming class at Deakin University.
-                        </p>
-                        <div class = "row">
-                          <div class = "col s6">
-                            <ul>
-                              <li>C#</li>
-                            </ul>
-                          </div>
-                          <div class = "col s6">
-                            <div class = "project-links">
-                              <a href="./public/projects/chessProject" class = "waves-effect waves-light btn project-link-item btn-link">
-                                <i class="material-icons right btn-link">cloud</i>
-                                Try it out
-                              </a>
-                              <a href="https://github.com/jordanlitsas/Text-Chess" class = "waves-effect waves-light btn project-link-item btn-link">
-                                <i class="material-icons right btn-link">cloud</i>
-                                GitHub
-                              </a>
-                            </div>
-                          </div>             
-                        </div>
-                        
-                      </div>
-
-                    </div>
-                    </div> 
-                        
-                    <!--Weather App Card-->
-                        <div class="col s12 m6">
-                          <div class="card small dark-blue darken-1 responsive-card">
-                            <div class="card-content white-text">
-                              <span class="card-title">Weather App</span>
-                              <p>This app allows the user to generate a weather report by clicking an interactive Google Maps plugin.</p>
-                              <div class = "row">
-                                <div class = "col s6">
-                                  <ul>
-                                    <li>HTML, CSS, JS</li>
-                                    <li>Node.js</li>
-                                    <li>API</li>
-                                  </ul>
-                                </div>
-                                <div class = "col s6">
-                                  <div class = "project-links">
-                                    <a href="./public/projects/weatherApp" class = "waves-effect waves-light btn project-link-item btn-link">
-                                      <i class="material-icons right btn-link">cloud</i>
-                                      Try it out
-                                    </a>
-                                    <a href="https://github.com/jordanlitsas" class = "waves-effect waves-light btn project-link-item btn-link">
-                                      <i class="material-icons right btn-link">cloud</i>
-                                      GitHub
-                                    </a>
-                                  </div>
-                                </div>             
-                              </div>
-                          </div>
-                        </div>
-                                                </div>
-
+            <div class = "col s12">
+              <div class = "row card">
+                <div class = "col s12 grey-blue card-content">
+                  <span class="card-title">About me</span>
+                  <p>
+                    As software engineer, I’m interested in turning ideas into a running program. I’m intrigued by the 
+                    prospect of web development as an abundant platform that can support any simple or overly complex 
+                    machination.  My website is a collection of the software I have developed, an area where I can showcase my 
+                    technical abilities.  One of my greatest interests is how as developers we can develop software as an 
+                    intermediary UI for non-coders to interact with complex technology. Whether it’s web or software and 
+                    services development, I’m here to make your problems my challenge.
+                  </p>
+                </div>
               </div>
+            </div>
+          </div>
+
+
+<!-- PROJECT ROW 1 -->
+          <div class="row"> 
+              <div class = "col s12 compact">
+<!--REAL EASY RENT Card-->
+                  <div class="compact-left card-wrapper col s12 m12 l12 xl12" >
+                    <div class="card dark-blue">
+                        <div class="card-content">
+                            <span class="card-title center">Real Easy Rent</span>
+                            <p>
+                                This project is a web application designed to automatically screen rental applications for private landlords.
+                            </p>
+                            <br>
+                            <p>
+                              It provides a simple interface for landlords to define applicant requirements, screen out those unsuitable, and rank those shortlisted.
+                              It also provides a panel for renters to track their applications.
+                            </p>
+                            
+                            <br>
+                            <hr>
+                            <h5>Tech Used</h5>
+                            <table>
+                              <tr>
+                                <th>Frontend</th>
+                                <th>Backend</th>
+                                <th>Testing</th>
+                              </tr>
+                              <tbody>
+                                <tr>
+                                  <td class = "compact-top">HTML, CSS and Vanilla JS</td>
+                                  <td >
+                                    
+                                      NodeJS | <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/express">express</a>
+                                  
+                                    <br>
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongodb">MongoDB</a> | 
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongoose">Mongoose</a>
+                                
+                                  </td>
+                                  <td class = "compact-top">
+                                   
+                                      <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/chai">Chai</a> 
+                                    and 
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mocha">Mocha</a>       
+                                    
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- <ul class="collection dark-blue compact">
+                              <li class="collection-item dark-blue">
+                                <span class="title">Frontend</span>
+                                <p>
+                                    HTML, CSS and vanilla JS
+                                </p>
+                              </li>
+                              <li class="collection-item dark-blue">
+                                <span class="title">Backend</span>
+                                <p>
+                                    NodeJS | <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/express">express</a>
+                                </p>
+                                <p>
+                                  <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongodb">MongoDB</a> | 
+                                  <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongoose">Mongoose</a>
+                              </p>
+                              </li>
+                              <li class="collection-item dark-blue">
+                                <span class="title">Testing</span>
+                                <p>
+                                  <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/chai">Chai</a> 
+                                and 
+                                <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mocha">Mocha</a>       
+                                </p> 
+                              </li>
+                            </ul> -->
+
+                            <br>
+                            <div class = "row compact">
+                              <div class = "col s6 m6 l6 xl6 btn-space-right">
+                                <a class= "_btn btn" href = "https://github.com/jordanlitsas/realeasyrent">
+                                  <div class = "row compact">
+                                    <div class = "col s5 push-s3    m3  push-m4    l4 push-l3     xl2 push-xl5     grey-blue-text compact">
+                                      GITHUB 
+                                    </div>
+                                    <div class = "col s1 push-s3    m1  push-m4   l1 push-l3    xl1 push-xl5    compact-left">
+                                      <img src = "./public/resources/grey-blue-github-icon.svg" class = "link-img">
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class = "col s6 m6 l6 xl6 btn-space-left">
+                                <a class= "_btn btn" href = "#">
+                                  <div class = "row compact">
+                                    <div class = "col s0 compact"></div>
+                                    <div class = "col s12 grey-blue-text">
+                                      SEE IT LIVE
+                                    </div>
+                                    
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+
+                          </div>
+                      </div>
+                  </div> 
+
+
+
+                  <div class="compact-left card-wrapper col s12 m12 l12 xl12" >
+                    <div class="card dark-blue">
+                        <div class="card-content">
+                            <span class="card-title center">Sqlite3 Script Generator</span>
+                            <p>
+                                This web app allows users to design a relational database with an interactive table UI.
+                                Once the design is complete, users can generate a sqlite3 script which can be used to generate a sqlite3 database instance on a NodeJS server. 
+                            </p>
+                            <br>
+                            <p>
+                              Socket.io supports realtime updates of the user's design, which saved to the mondoDB database. This in turn allows user's to sign-in and return to their design.
+                            </p>
+                            <p>
+                              The next iterations of this application will focus on  hosting the sqlite3 database, allowing users to populate it, and then perform data manipulations through a clean 
+                              UI. The ultimate goal is to minimise the need for users to write sql script. 
+                            </p>
+
+                            
+                            <br>
+                           
+                            <hr>
+                            <h5>Tech Used</h5>
+                            <table>
+                              <tr>
+                                <th>Frontend</th>
+                                <th>Backend</th>
+                                <th>Testing</th>
+                              </tr>
+                              <tbody>
+                                <tr>
+                                  <td class = "compact-top">HTML, CSS and Vanilla JS</td>
+                                  <td >
+                                    
+                                      NodeJS | <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/express">express</a>
+                                  
+                                    <br>
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongodb">MongoDB</a> | 
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongoose">Mongoose</a>
+                                
+                                  </td>
+                                  <td class = "compact-top">
+                                   
+                                      <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/chai">Chai</a> 
+                                    and 
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mocha">Mocha</a>       
+                                    
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- <ul class="collection dark-blue compact">
+                              <li class="collection-item dark-blue">
+                                <span class="title">Frontend</span>
+                                <p>
+                                    HTML, CSS and vanilla JS
+                                </p>
+                              </li>
+                              <li class="collection-item dark-blue">
+                                <span class="title">Backend</span>
+                                <p>
+                                    NodeJS | <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/express">express</a>
+                                </p>
+                                <p>
+                                  <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongodb">MongoDB</a> | 
+                                  <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongoose">Mongoose</a>
+                              </p>
+                              </li>
+                              <li class="collection-item dark-blue">
+                                <span class="title">Testing</span>
+                                <p>
+                                  <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/chai">Chai</a> 
+                                and 
+                                <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mocha">Mocha</a>       
+                                </p> 
+                              </li>
+                            </ul> -->
+
+                            <br>
+                            <div class = "row compact">
+                              <div class = "col s6 m6 l6 xl6 btn-space-right">
+                                <a class= "_btn btn" href = "https://github.com/jordanlitsas/sqlite3ScriptGenerator">
+                                  <div class = "row compact">
+                                    <div class = "col s5 push-s3    m3  push-m4    l4 push-l3     xl2 push-xl5     grey-blue-text compact">
+                                      GITHUB 
+                                    </div>
+                                    <div class = "col s1 push-s3    m1  push-m4   l1 push-l3    xl1 push-xl5    compact-left">
+                                      <img src = "./public/resources/grey-blue-github-icon.svg" class = "link-img">
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class = "col s6 m6 l6 xl6 btn-space-left">
+                                <a class= "_btn btn" href = "#">
+                                  <div class = "row compact">
+                                    <div class = "col s0 compact"></div>
+                                    <div class = "col s12 grey-blue-text">
+                                      SEE IT LIVE
+                                    </div>
+                                    
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+
+                          </div>
+                      </div>
+                  </div> 
+               
+               
+                </div>
+            </div>
+
+      
+    
 
               
 

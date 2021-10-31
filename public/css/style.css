@@ -1,3 +1,22 @@
+*{
+  color: #fff; 
+}
+p{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+}
+
+span{
+  line-height: 2em;
+  font-size: 1.5em;
+    margin-bottom: 5px;
+    letter-spacing: .05em
+}
+
+
 .top-nav{
     display: flex;
     flex-direction: row;
@@ -37,24 +56,38 @@ footer {
 
 img:hover{
   opacity: 0.5;
+  transition: 0.3s;
+
+}
+
+a._btn:hover{
+  opacity:0.5;
+  transition: 0.3s;
+
 }
 
 
 svg:hover{
   opacity: 0.5;
+  transition: 0.3s;
+
 
 }
- .contact-img{
+img.contact-img{
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 15px;
-  height: 5vh;
+  height: 7vh;
   width:auto;
 } 
 
-#about-me{
-  text-align: center;
+img.link-img{
+  padding-top: 5px;
+  height:fit-content;
+  width:auto;
 }
+
+
 
 .project-links{
   display: flex;
@@ -65,16 +98,74 @@ svg:hover{
   margin-top: 20px !important;
 }
 
-p{
-  color: #fff;
+ul{
+  margin-left:1vw;
+}
+li{
+  margin-left: 2vw;
 }
 
-.dark-blue{
-  background-color: #293241 !important;
+.compact{
+  padding: 0px 0px !important;
+  margin: 0px !important;
+  border: none !important;
 }
 
-.btn-link{
-   background-color: #98c1d9 !important;
-   color: #39464e !important;
-
+a._btn{
+  padding: 0px 0px !important;
+  margin: 0px !important;
+  border: none !important;
 }
+
+
+
+.compact-left{
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  border-left: none !important;
+}
+
+.compact-right{
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+  border-right: none !important;
+}
+
+.compact-top{
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  border-top: none !important;
+}
+
+.collection, .collection-item{
+  border-bottom: none !important;
+}
+
+/* 
+@media only screen and (max-width: 992px) {
+  .compact-left{
+    padding: 0px 0px !important;
+    margin: 0px !important;
+    border: none !important;
+  }
+  
+  .compact-right{
+    padding: 0px 0px !important;
+    margin: 0px !important;
+    border: none !important;
+  }
+
+  .btn-space-right{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    border-left: none !important;  
+  }
+
+  .btn-space-left{
+ padding-right: 0px !important;
+  margin-right: 0px !important;
+  border-right: none !important;
+  }
+   */
+
+/* }  */

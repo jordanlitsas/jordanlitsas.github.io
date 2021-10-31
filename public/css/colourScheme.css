@@ -1,0 +1,31 @@
+*{
+    color: #fff !important;
+}
+
+.dark-blue{
+    background-color: #293241 !important;
+}
+.grey-blue{
+    background-color: #39464e !important;
+}
+.light-blue{
+    background-color: #98c1d9 !important;
+    color: #39464e !important;
+}
+
+.light-blue-text-link{
+    color: #98c1d9 !important;
+    text-decoration: underline;
+}
+
+.grey-blue-text{
+    color: #39464e !important;
+}
+
+
+
+._btn{
+    background-color: #98c1d9 !important;
+    color: #39464e !important;
+    width:100% !important;
+  }

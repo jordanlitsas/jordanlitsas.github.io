@@ -4,12 +4,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Services</title>
+        <title>Jordan Litsas' Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./public/css/style.css">
         <link rel="stylesheet" href="./public/css/colourScheme.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     </head>
     <body>
@@ -59,9 +61,189 @@
 
 
                 <!-- LEFT COLUMN -->
-                <div class = "col xl6 compact-left">
-                    <!--REAL EASY RENT Card-->
-                    <div class="compact-left card-wrapper col s12 m12 l12 xl12" >
+                <div class = "col xl6 compact-left" id = "col-left">
+
+                     <!-- Inaam -->
+                     <div class="compact-left card-wrapper col s12 m12 l12 xl12" id = "inaam-card">
+                      <div class="card dark-blue">
+                          <div class="card-content">
+                              <span class="card-title center">Ethical Company Investment Platform API</span>
+                              <p>
+                                  I took part in a semi-professional project, whereby a company contracted my post-graduate university to create
+                                  the application over serveral trimesters with student engineers.
+                              </p>
+                              <br>
+                              <p>
+                                  I developed an API which communicated with other ASX APIs to collect and structure company qualitative and financial statistics.
+                                  According to ASIC regulation and other standards for guidance, my API fulfilled the data requirements to allow a user to make
+                                  an informed decision on a share transaction.
+                              </p>
+                              <br>
+                              <p>
+                                A list of my contributions include: 
+                              </p>
+                              <ul>
+                                <li>
+                                  An API that takes an ASX code, calls a chain of APIs, and then strutuctures and stores this data so that users can browse
+                                  qualtitative information on ASX listed companies.
+                                </li>
+                                <br>
+                                
+                                <li>
+                                  An API that periodically calls financial data APIs to collect and structure the most recent financial statistics.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                  A CRUD API so users can maintain a favourite company list.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                  An API that maintains a user's transaction history according to ASIC and other legislative guidelines.
+                                </li>
+
+                                <br>
+
+                                <li>
+                                  Technical documentation for the aforementioned APIs.
+                                </li>
+                              </ul>
+  
+                              
+                              <br>
+                             
+                              <hr>
+                              <h5>Tech Used</h5>
+                             
+                              <ul class="collection dark-blue compact">
+                               
+                                <li class="collection-item dark-blue">
+                                  <span class="title">Backend</span>
+                                  <p>
+                                      NodeJS | <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/express">express</a>
+                                  </p>
+                                  <p>
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongodb">MongoDB</a> | 
+                                    <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mongoose">Mongoose</a>
+                                </p>
+                                </li>
+
+                                <li class="collection-item dark-blue">
+                                  <span class="title">Other</span>
+                                  <p>
+                                      Git | Bitbucket
+                                  </p>
+                                  <p>
+                                    Postman
+                                  </p>
+                                
+                                </li>
+                                
+                              </ul>
+  
+                              <br>
+                              <div class = "row compact">
+                                <div class = "col s6 m6 l6 xl6 btn-space-right">
+                                  <a class= "_btn btn" href = "https://github.com/jordanlitsas/sqlite3ScriptGenerator">
+                                    <div class = "row compact">
+                                      <div class = "col s5 push-s3    m4  push-m4    l4 push-l3     xl5 push-xl3     grey-blue-text compact">
+                                        GITHUB 
+                                      </div>
+                                      <div class = "col s1 push-s3    m1  push-m4   l1 push-l3    xl1 push-xl3    compact-left">
+                                        <img src = "./public/resources/grey-blue-github-icon.svg" class = "link-img">
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div class = "col s6 m6 l6 xl6 btn-space-left">
+                                  <a class= "_btn-disabled btn">
+                                    <div class = "row compact">
+                                      <div class = "col s0 compact"></div>
+                                      <div class = "col s12 grey-blue-text">
+                                        SEE IT LIVE
+                                      </div>
+                                      
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                 
+
+
+                    <!-- TEXT-BASED CHESS CARD -->
+                    <div class = "compact-left card-wrapper col s12 m12 l12 xl12" id = "chess-card">
+                      <div class = "card dark-blue">
+                        <div class = "card-content">
+                          <span class="card-title center">Text-Based Chess</span>
+
+                          <p>
+                            A two player chess created with C# and OOP design principles.
+                          </p>
+                          <br>
+                          <p>
+                            This was the first program I created from scratch, and is where I cut my teeth with software development.
+                            Although this game has been put on the backlog as an earlier university assignment,
+                            the next task is to host this program in a browser with Microsoft's .NET.
+                          </p>
+                          
+                          <br>
+                          <hr>
+                          <h5>Tech Used</h5>
+                            <ul class="collection dark-blue compact">
+                              <li class="collection-item dark-blue">
+                                <p>
+                                    C#
+                                </p>
+                                <p>
+                                  Git | Github
+                                </p>
+                              </li>
+
+                             
+                            </ul>
+                            <div class = "row compact">
+                              <div class = "col s6 m6 l6 xl6 btn-space-right">
+                                <a class= "_btn btn" href = "https://github.com/jordanlitsas/Text-Chess">
+                                  <div class = "row compact">
+                                    <div class = "col s5 push-s3    m4  push-m4    l4 push-l3     xl5 push-xl3     grey-blue-text compact">
+                                      GITHUB 
+                                    </div>
+                                    <div class = "col s1 push-s3    m1  push-m4   l1 push-l3    xl1 push-xl3    compact-left">
+                                      <img src = "./public/resources/grey-blue-github-icon.svg" class = "link-img">
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class = "col s6 m6 l6 xl6 btn-space-left">
+                                <a class= "_btn-disabled btn " >
+                                  <div class = "row compact">
+                                    <div class = "col s0 compact"></div>
+                                    <div class = "col s12 grey-blue-text">
+                                      SEE IT LIVE
+                                    </div>
+                                    
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                   
+                </div>
+
+
+              <!-- RIGHT COLUMN -->
+                <div class = "col xl6 compact-right" id = "col-right">
+                     <!--REAL EASY RENT Card-->
+                     <div class="compact-right card-wrapper col s12 m12 l12 xl12" id = "real-easy-rent-card" >
                       <div class="card dark-blue">
                           <div class="card-content">
                               <span class="card-title center">Real Easy Rent</span>
@@ -102,6 +284,18 @@
                                   <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mocha">Mocha</a>       
                                   </p> 
                                 </li>
+
+                                <li class="collection-item dark-blue">
+                                  <span class="title">Other</span>
+                                  <p>
+                                    Git | Github
+                                  </p>
+                                  <p>
+                                    Postman
+                                  </p>
+                                
+                                </li>
+
                               </ul>
   
                               <br>
@@ -119,7 +313,7 @@
                                   </a>
                                 </div>
                                 <div class = "col s6 m6 l6 xl6 btn-space-left">
-                                  <a class= "_btn btn" href = "#">
+                                  <a class= "_btn btn" href = "https://howling-pirate-14037.herokuapp.com/">
                                     <div class = "row compact">
                                       <div class = "col s0 compact"></div>
                                       <div class = "col s12 grey-blue-text">
@@ -134,36 +328,8 @@
                             </div>
                         </div>
                     </div> 
-
-
-                    <!-- WEATHER REPORT CARD -->
-                    <div class = "compact-left card-wrapper col s12 m12 l12 xl12">
-                      <div class = "card dark-blue">
-                        <div class = "card-content">
-                          <span class="card-title center">Weather Report API</span>
-
-                          <p>
-                            Generates a weather report from user's location input.
-                        </p>
-                        <br>
-                        <p>
-                          
-                        </p>
-                        
-                        <br>
-                        <hr>
-                        <h5>Tech Used</h5>
-                        </div>
-                      </div>
-                  </div>
-                   
-                </div>
-
-
-              <!-- RIGHT COLUMN -->
-                <div class = "col xl6 compact-right">
                      <!-- SQLITE3 SCRIPT GENERATOR -->
-                     <div class="compact-right card-wrapper col s12 m12 l12 xl12" >
+                     <div class="compact-right card-wrapper col s12 m12 l12 xl12" id = "sqlite3-script-generator-card">
                       <div class="card dark-blue">
                           <div class="card-content">
                               <span class="card-title center">Sqlite3 Script Generator</span>
@@ -211,6 +377,17 @@
                                   <a class = "light-blue-text-link" href = "https://www.npmjs.com/package/mocha">Mocha</a>       
                                   </p> 
                                 </li>
+
+                                <li class="collection-item dark-blue">
+                                  <span class="title">Other</span>
+                                  <p>
+                                    Git | Github
+                                  </p>
+                                  <p>
+                                    Postman
+                                  </p>
+                                
+                                </li>
                               </ul>
   
                               <br>
@@ -243,6 +420,10 @@
                             </div>
                         </div>
                     </div>
+
+
+
+                 
                 
                 </div>
               
@@ -253,5 +434,52 @@
 
        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+          $(window).on('resize', function(){
+            var win = $(this);
+            if (win.width() < 1200) { 
+
+            $('#inaam-card').addClass('compact');
+            $('#inaam-card').removeClass('compact-left');
+
+            $('#chess-card').addClass('compact');
+            $('#chess-card').removeClass('compact-left');
+
+            $('#real-easy-rent-card').addClass('compact');
+            $('#real-easy-rent-card').removeClass('compact-right');
+
+            $('#sqlite3-script-generator-card').addClass('compact');
+            $('#sqlite3-script-generator-card').removeClass('compact-right');
+
+            $('#col-left').addClass('compact');
+            $('#col-left').removeClass('compact-left');
+
+            $('#col-right').addClass('compact');
+            $('#col-right').removeClass('compact-right');
+
+
+            }
+          else {
+            $('#inaam-card').addClass('compact-left');
+            $('#inaam-card').removeClass('compact');
+
+            $('#chess-card').addClass('compact-left');
+            $('#chess-card').removeClass('compact');
+
+            $('#real-easy-rent-card').addClass('compact-right');
+            $('#real-easy-rent-card').removeClass('compact');
+
+            $('#sqlite3-script-generator-card').addClass('compact-right');
+            $('#sqlite3-script-generator-card').removeClass('compact');
+
+            $('#col-left').addClass('compact-left');
+            $('#col-left').removeClass('compact');
+
+            $('#col-right').addClass('compact-right');
+            $('#col-right').removeClass('compact');
+          }
+
+      });
+        </script>
     </body>
 </html>

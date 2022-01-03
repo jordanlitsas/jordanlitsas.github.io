@@ -29,3 +29,9 @@
     color: #39464e !important;
     width:100% !important;
   }
+
+  ._btn-disabled{
+    background-color: #293241 !important;
+    color: #39464e !important;
+    width:100% !important;
+  }
